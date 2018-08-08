@@ -4,11 +4,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { S1componentComponent } from './scenario1/s1component/s1component.component';
+import { S2componentComponent } from './scenario2/s2component/s2component.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    S1componentComponent
+    S1componentComponent,
+    S2componentComponent
+    
   ],
   imports: [
     BrowserModule,
