@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./s2component.component.css']
 })
 export class S2componentComponent implements OnInit {
+  
 
   onClick(_name){
     console.log(_name);
