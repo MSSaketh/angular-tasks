@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class S3component1Component implements OnInit {
 
+  // parentMessage = "hi";
+
   constructor() { }
 
   ngOnInit() {
