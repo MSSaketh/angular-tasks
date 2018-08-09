@@ -1,5 +1,6 @@
-<h2>Scenario-4</h2>
+<!-- <h2>Scenario-4</h2> -->
 <h3>component-2</h3>
-<input type = "text" [(ngModel)]="_name">
+<!-- <input type = "text" [(ngModel)]="_name">
 <h2>{{_name}}</h2>
-<app-s4component1 [ParentMessage]="[_name]"></app-s4component1>
+<app-s4component1 [ParentMessage]="[_name]"></app-s4component1> -->
+<input type="text" (keyup)="onChange(input.value)" #input>

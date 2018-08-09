@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-s5component3',
@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class S5component3Component implements OnInit {
 
   constructor() { }
+
+  @Input() grandchild:string;
 
   ngOnInit() {
   }
