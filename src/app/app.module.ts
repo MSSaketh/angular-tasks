@@ -12,6 +12,10 @@ import { S4component2Component } from './scenario4/s4component1/s4component2/s4c
 import { S5component1Component } from './scenario5/s5component1/s5component1.component';
 import { S5component2Component } from './scenario5/s5component1/s5component2/s5component2.component';
 import { S5component3Component } from './scenario5/s5component1/s5component2/s5component3/s5component3.component';
+import { AppService } from './app.service';
+import { S6component1Component } from './scenario6/s6component1/s6component1.component';
+import { S6component2Component } from './scenario6/s6component2/s6component2.component';
+
 
 
 
@@ -27,14 +31,16 @@ import { S5component3Component } from './scenario5/s5component1/s5component2/s5c
     S4component2Component,
     S5component1Component,
     S5component2Component,
-    S5component3Component
+    S5component3Component,
+    S6component1Component,
+    S6component2Component
     
   ],
   imports: [
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [AppService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
